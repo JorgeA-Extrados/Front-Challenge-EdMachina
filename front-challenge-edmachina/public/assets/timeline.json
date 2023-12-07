@@ -1,0 +1,138 @@
+[
+  {
+    "title": "September 2023",
+    "id": 1,
+    "cadrs": [
+      {
+        "id": 1,
+        "icon": "fa-regular fa-envelope text-primary fa-sm fa-fw",
+        "text1": "Email Sent ",
+        "text2": " by Gerardo Moyano",
+        "text3": "Upselling email sent.",
+        "text4": " View Email",
+        "text5": "",
+        "text6": "",
+        "date": "Sep 23, 2023 - 1:45pm"
+      },
+      {
+        "id": 2,
+        "icon": "fa-regular fa-message text-primary fa-sm fa-fw",
+        "text1": "Chat Meeting",
+        "text2": " by Prof. Jean Charleton",
+        "text3": "Whatsapp chat meeting.",
+        "text4": "",
+        "text5": "",
+        "text6": "",
+        "date": "Sep 23, 2023 - 1:45pm"
+      }
+    ]
+  },
+  {
+    "title": "August 2023",
+    "id": 2,
+    "cadrs": [
+      {
+        "id": 3,
+        "icon": "fa-solid fa-graduation-cap",
+        "text1": "LMS Assingnment Delivered",
+        "text2": " by Danielle Munchen Schollengberg",
+        "text3": "For: 'Career Planning and Development'",
+        "text4": "",
+        "text5": "Assignment Name: 'Quiz 01', Deliveered ON TIME",
+        "text6": "Grade: TBD",
+        "date": "Aug 5, 2023 - 5:33pm"
+      },
+      {
+        "id": 4,
+        "icon": "fa-solid fa-phone",
+        "text1": "Call",
+        "text2": " from Gerardo Moyano",
+        "text3": "Direct Call made to +52 55 22126164",
+        "text4": "",
+        "text5": "Call Duration: 0 mins. 10 sec",
+        "text6": "",
+        "date": "Aug 4, 2023 - 1:45pm"
+      },
+      {
+        "id": 5,
+        "icon": "",
+        "text1": "Tag Added",
+        "text2": " from Career Planning and Development, by Prof. Hean Charleton",
+        "text3": "Multiple Problems, Injutied, Check, Late",
+        "text4": "",
+        "text5": "",
+        "text6": "",
+        "date": "Aug 3, 2023 - 5:33pm"
+      },
+
+      {
+        "id": 6,
+        "icon": "",
+        "text1": "Tag Added",
+        "text2": " by Gerardo Moyano",
+        "text3": "Inactive, COntrol, Schollarship",
+        "text4": "",
+        "text5": "",
+        "text6": "",
+        "date": "Aug 2, 2023 - 1:45pm"
+      },
+
+      {
+        "id": 7,
+        "icon": "fa-regular fa-envelope text-primary fa-sm fa-fw",
+        "text1": "Email Sent",
+        "text2": " by Prof. Jean Charleton",
+        "text3": "Check email sent.",
+        "text4": " View Email",
+        "text5": "",
+        "text6": "",
+        "date": "Aug 2, 2023 - 1:45pm"
+      }
+    ]
+  },
+  {
+    "title": "July 2023",
+    "id": 3,
+    "cadrs": [
+      {
+        "id": 8,
+        "icon": "fa-solid fa-phone",
+        "text1": "Call",
+        "text2": " from Gerardo Moyano",
+        "text3": "Direct Call made to +52 55 22126164",
+        "text4": "",
+        "text5": "Call Duration: 1 mins. 22 sec",
+        "text6": "",
+        "date": "Jul 12, 2023 - 1:45pm"
+      },
+      {
+        "id": 9,
+        "icon": "fa-solid fa-phone",
+        "text1": "Call",
+        "text2": " from Gerardo Moyano",
+        "text3": "Direct Call made to +52 55 22126164",
+        "text4": "",
+        "text5": "Call Duration: 2 mins. 30 sec",
+        "text6": "",
+        "date": "Jul 12, 2023 - 1:45pm"
+      }
+    ]
+  },
+  {
+    "title": "June 2023",
+    "id": 4,
+    "cadrs": [
+      {
+        "id": 10,
+        "icon": "fa-regular fa-envelope text-primary fa-sm fa-fw",
+        "text1": "Initial Contact",
+        "text2": " by Gerardo Moyano",
+        "text3": "Welcome email sent.",
+        "text4": " View Email",
+        "text5": "",
+        "text6": "",
+        "date": "Jun 11, 2023 - 1:45pm"
+      }
+    ]
+  }
+]

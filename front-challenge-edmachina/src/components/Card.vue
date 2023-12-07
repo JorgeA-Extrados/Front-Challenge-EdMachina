@@ -1,25 +1,26 @@
 <template>
-  <div class="flex-container">
-    <div v-for="item in jsonData" :key="item.id">
-      <div class="card mb-3 card-father col">
-        <div class="row g-0">
-          <div class="col-md-4">
-            <div class="card-radius d-flex justify-content-center" v-html="item.icon">
+  <div class="d-flex justify-content-between align-items-center w-100 flex-row">
+    <div v-for="item in jsonData" :key="item.id" class="custom-card">
+      <div class="card rounded">
+        <div class="card-body">
+          <div class="d-flex align-items-center">
+            <div class="rounded-circle bg-primary justify-content-center">
+              <div class="card-radius">
+                <span class="timeline-icon">
+                  <i :class="item.icon"></i>
+                </span>
+              </div>
+            </div>
+            <div class="ms-3 flex-grow-1 text-end">
+              <p class="mb-0">{{ item.title }}</p>
+              <p class="mb-0">{{ item.text }}</p>
             </div>
           </div>
-          <div class="col-md-8">
-            <div class="card-body">
-              <h5 class="card-title">{{ item.title }}</h5>
-              <p class="card-text">{{ item.text }}</p>
-              <hr />
-            </div>
+          <hr class="my-3" />
+          <div class="d-flex justify-content-between">
+            <p class="mb-0">{{ item.footer1 }}</p>
+            <p class="mb-0">{{ item.footer2 }}</p>
           </div>
-          <p class="card-text d-flex">
-            <small class="justify-content-center pl-4">{{
-              item.footer1
-            }}</small>
-            <small class="" style="margin-left: auto">{{ item.footer2 }}</small>
-          </p>
         </div>
       </div>
     </div>
@@ -38,27 +39,48 @@ export default {
 </script>
         
 <style scoped>
-.card-father {
-  width: auto;
-  height: auto;
-  max-width: 540px;
-  margin-right: 20px;
+.custom-card {
+  height: 111px;
+  margin-bottom: 1rem;
 }
-.icon-card {
-  color: #fff;
-  margin: auto;
+
+.card {
+  border: none;
+  flex: 0 0 207px;
+  width: 250px !important;
+  height: 130px;
+  margin-bottom: 1rem;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+}
+.bg-primary {
+  background: #91CC75 !important;
 }
 
 .card-radius {
-  background: #35e082;
-  border-radius: 50%;
-  width: 45%;
-  height: 25%;
-  margin-top: 15px;
-  margin-left: 15px;
+  color: #fff;
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 25px;
+  width: 25px;
 }
 
-.flex-container {
-      display: flex;
-    }
+p {
+  font-weight: bold;
+}
+
+@media (max-width: 992px) {
+  .custom-card {
+    flex: 0 0 calc(50% - 1rem);
+    max-width: calc(50% - 1rem);
+  }
+}
+
+@media (max-width: 576px) {
+  .custom-card {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
 </style>

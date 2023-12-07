@@ -1,11 +1,18 @@
-@import './base.css';
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@300;600;700&display=swap');
 
 body {
   background: #F8F8F8 !important;
+  font-family: 'Noto Sans', sans-serif !important;
+
 }
 
 #app {
   font-weight: normal;
+}
+
+.colorweight {
+  color: #6E6B7B !important;
+  font-weight: 700 !important;
 }
 
 a,

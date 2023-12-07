@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "icon": "fa-solid fa-calendar-day",
+    "title": "Record Age",
+    "text": "12 days",
+    "footer1": "Created on",
+    "footer2": "Jan 2, 2023"
+  },
+  {
+    "id": 2,
+    "icon": "fa-solid fa-circle-check",
+    "title": "Status ⚙",
+    "text": "Active",
+    "footer1": "Update",
+    "footer2": "Nov 2, 2023"
+  },
+  {
+    "id": 3,
+    "icon": "fa-solid fa-location-pin",
+    "title": "Country",
+    "text": "México",
+    "footer1": "State",
+    "footer2": "Córdoba"
+  },
+  {
+    "id": 4,
+    "icon": "fa-solid fa-file",
+    "title": "Last Contact",
+    "text": "2 days ago",
+    "footer1": "Nov 29, 2023",
+    "footer2": "2:43pm"
+  },
+  {
+    "id": 5,
+    "icon": "fa-solid fa-chart-line",
+    "title": "Last Activity",
+    "text": "7 days ago",
+    "footer1": "Nov 29, 2023",
+    "footer2": "2:43pm"
+  }
+]

@@ -1,29 +1,27 @@
-# front-challenge-edmachina
+# Proyecto Challenge EdMachina
 
-This template should help get you started developing with Vue 3 in Vite.
+Este proyecto presenta un panel de administración interactivo que permite explorar y visualizar información obtenida a través de archivos JSON. Se ha desarrollado utilizando tecnologías como Bootstrap, Vue 3 y Font Awesome.
 
-## Recommended IDE Setup
+## Tecnologías Utilizadas
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+- **Vue 3:** El framework de JavaScript utilizado para construir la interfaz de usuario interactiva y dinámica.
+- **Bootstrap:** Se ha utilizado para el diseño y maquetación del panel de administración, proporcionando estilos predefinidos y componentes reutilizables.
+- **Font Awesome:** Se ha integrado para agregar iconos a la interfaz, mejorando la experiencia visual.
 
-## Customize configuration
+## Uso Local
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
+Siga estos pasos para ejecutar el proyecto localmente:
 
-## Project Setup
+1. **Clonar el Repositorio:**
+   ```bash
+   git clone https://github.com/tu_usuario/tu-proyecto.git
 
-```sh
-npm install
-```
+2. **Ejecuta los siguientes comando:**
+    npm install
 
-### Compile and Hot-Reload for Development
+3. **Clonar el Repositorio:**
+   npm run serve
 
-```sh
-npm run dev
-```
+**Para utilizarlo con Docker ejecute el siguiente comando:**
+   docker compose up
 
-### Compile and Minify for Production
-
-```sh
-npm run build
-```

@@ -1,136 +1,166 @@
 <template>
-  <section class="py-5 container">
-    <div>
-      <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <h4 class="title">Timeline</h4>
-          <div class="d-flex" id="navbarSupportedContent">
-            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-              <li class="nav-item dropdown">
-                <a
-                  class="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><hr class="dropdown-divider" /></li>
-                  <li>
-                    <a class="dropdown-item" href="#">Something else here</a>
-                  </li>
-                </ul>
-              </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <input
-                class="form-control me-2"
-                type="search"
-                placeholder="Search"
-                aria-label="Search"
-              />
-              <button class="btn btn-outline-success" type="submit">
-                Search
-              </button>
-            </form>
-          </div>
-        </div>
-      </nav>
-    </div>
-    <ul class="timeline-with-icons">
-      <li class="timeline-item mb-5">
-        <span class="timeline-icon">
-          <i class="fas fa-rocket text-primary fa-sm fa-fw"></i>
-        </span>
-
-        <h5 class="fw-bold">Our company starts its operations</h5>
-        <p class="text-muted mb-2 fw-bold">11 March 2020</p>
-        <p class="text-muted">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit
-          necessitatibus adipisci, ad alias, voluptate pariatur officia
-          repellendus repellat inventore fugit perferendis totam dolor voluptas
-          et corrupti distinctio maxime corporis optio?
-        </p>
+  <div class="colorweight">
+    <ul class="nav nav-tabs card-header-tabs">
+      <li class="nav-item li-activity " >
+        <a class="nav-link activity active" aria-current="true">Activity</a>
       </li>
-
-      <li class="timeline-item mb-5">
-        <span class="timeline-icon">
-          <i class="fas fa-hand-holding-usd text-primary fa-sm fa-fw"></i>
-        </span>
-        <h5 class="fw-bold">First customer</h5>
-        <p class="text-muted mb-2 fw-bold">19 March 2020</p>
-        <p class="text-muted">
-          Quisque ornare dui nibh, sagittis egestas nisi luctus nec. Sed aliquet
-          laoreet sapien, eget pulvinar lectus maximus vel. Phasellus suscipit
-          porta mattis.
-        </p>
+      <li class="nav-item">
+        <a class="nav-link disabled"><i class="fa-regular fa-envelope fa-sm fa-fw"></i>&nbsp; Emails </a>
+        
       </li>
-
-      <li class="timeline-item mb-5">
-        <span class="timeline-icon">
-          <i class="fas fa-users text-primary fa-sm fa-fw"></i>
-        </span>
-        <h5 class="fw-bold">Our team exceeds 10 people</h5>
-        <p class="text-muted mb-2 fw-bold">24 June 2020</p>
-        <p class="text-muted">
-          Orci varius natoque penatibus et magnis dis parturient montes,
-          nascetur ridiculus mus. Nulla ullamcorper arcu lacus, maximus
-          facilisis erat pellentesque nec. Duis et dui maximus dui aliquam
-          convallis. Quisque consectetur purus erat, et ullamcorper sapien
-          tincidunt vitae.
-        </p>
-      </li>
-
-      <li class="timeline-item mb-5">
-        <span class="timeline-icon">
-          <i class="fas fa-money-bill-wave text-primary fa-sm fa-fw"></i>
-        </span>
-        <h5 class="fw-bold">Earned the first million $!</h5>
-        <p class="text-muted mb-2 fw-bold">15 October 2020</p>
-        <p class="text-muted">
-          Nulla ac tellus convallis, pulvinar nulla ac, fermentum diam. Sed et
-          urna sit amet massa dapibus tristique non finibus ligula. Nam pharetra
-          libero nibh, id feugiat tortor rhoncus vitae. Ut suscipit vulputate
-          mattis.
-        </p>
+      <li class="nav-item">
+        <a class="nav-link disabled"><i class="fa-solid fa-phone"></i>&nbsp; Calls</a>
       </li>
     </ul>
-  </section>
+    <section class="py-5">
+      <div >
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <h4 class="title">Timeline</h4>
+            <div class="d-flex" id="navbarSupportedContent">
+              <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item dropdown">
+                  <a
+                    class="btn btn-outline-secondary dropdown-toggle btndrop"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Year
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">2020</a></li>
+                    <li><a class="dropdown-item" href="#">2021</a></li>
+                    <li><a class="dropdown-item" href="#">2022</a></li>
+                    <li><a class="dropdown-item" href="#">2023</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item dropdown">
+                  <a
+                    class="btn btn-outline-secondary dropdown-toggle btndrop"
+                    href="#"
+                    role="button"
+                    data-bs-toggle="dropdown"
+                    aria-expanded="false"
+                  >
+                    Filer by User
+                  </a>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Name</a></li>
+                    <li><a class="dropdown-item" href="#">Last Name</a></li>
+                    <li><a class="dropdown-item" href="#">Age</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="input-group">
+                <input
+                  class="form-control me-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                />
+                <label for="search-input" class="input-group-addon">
+                  <i class="fas fa-search"></i>
+                </label>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+      <div class="timeline overflow-auto p-4">
+        <ul v-for="item in jsonData" :key="item.id" class="timeline-with-icons ">
+          <h5 class="fw-bold">{{ item.title }}</h5>
+          <li
+            v-for="card in item.cadrs"
+            :key="card.id"
+            class="timeline-item mb-5"
+          >
+            <span class="timeline-icon">
+              <i :class="card.icon"></i>
+            </span>
+            <div class="cards">
+              <div class="row g-0">
+                <div class="col-md-auto">
+                  <h5 style="color: blue !important" class="fw-bold m-0">
+                    {{ card.text1 }} &nbsp;
+                  </h5>
+                </div>
+                <div class="col-md-auto">
+                  <h5 class="m-0">{{ card.text2 }}</h5>
+                </div>
+              </div>
+              <p class="text-muted mb-2 fw-bold text-end">{{ card.date }}</p>
+              <div class="row g-0">
+                <div class="col-md-auto">
+                  <p class="text-muted mb-2 fw-bold">{{ card.text3 }} &nbsp;</p>
+                </div>
+                <div class="col-md-auto">
+                  <p
+                    style="color: blue !important"
+                    class="text-muted mb-2 fw-bold"
+                  >
+                    {{ card.text4 }}
+                  </p>
+                </div>
+              </div>
+              <p class="text-muted mb-2 fw-bold">{{ card.text5 }}</p>
+              <p class="text-muted mb-2 fw-bold">{{ card.text6 }}</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </div>
 </template>
       
 <script>
-export default {};
+export default {
+  props: {
+    jsonData: {
+      type: Array,
+      required: true,
+    },
+  },
+};
 </script>
       
 <style scoped>
 section {
-  background: #fff;
+  background: #ffffff !important;
+  border-radius: 5px;
+  overflow: visible !important;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1), 0px 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.li-activity {
+  background: #ffffff;
+  border-radius:6px 6px 0 0;
+}
+
+.activity {
+  border: none !important;
+}
+
+.nav-link {
+  box-shadow: 0px -2px 6px rgba(0, 0, 0, 0.1), 0px -1px 3px rgba(0, 0, 0, 0.08);
+}
+
+nav {
+  background: #fff !important;
+}
+
+.cards {
+  background: #ebebeec2 !important;
+  border-radius: 5px;
+  padding: 10px;
 }
 .title {
   color: #6e6b7b;
+}
+
+.timeline {
+  max-height: 279px !important;
 }
 .timeline-with-icons {
   border-left: 1px solid hsl(0, 0%, 90%);
@@ -159,5 +189,37 @@ section {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.input-group {
+  position: relative;
+  display: flex;
+}
+
+.input-group .input-group-addon {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.375rem 0.75rem;
+  pointer-events: none;
+}
+
+.btndrop {
+  margin-right: 15px;
+}
+
+::-webkit-scrollbar {
+  width: 12px; 
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6E6B7B; 
+  border-radius: 10px; 
+}
+
+::-webkit-scrollbar-track {
+  background-color: #D8D6DE; 
+  border-radius: 10px; 
 }
 </style>

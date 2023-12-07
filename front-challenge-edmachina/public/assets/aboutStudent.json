@@ -1,0 +1,61 @@
+[
+  {
+    "id": 1,
+    "name": "Danielle Munchen Schollengberg",
+    "email": "Reg. ID: AYS123392",
+    "phone": "Status: Active"
+  },
+  {
+    "id": 2,
+    "title": "Sobre el Estudiante",
+    "text1": "Periodo: 2023 - 1",
+    "text2": "Status: Alumno Regular",
+    "text3": "Colegio: Aldebaran",
+    "text4": "Mod. Adminision: Centro Pre",
+    "text5": "Segmento: Sin Información",
+    "title2": "Detalle Riesgo de Ingreso:",
+    "text6": "Matemática:",
+    "text7": "Química",
+    "text8": "Programación",
+    "text9": "Comunicación",
+    "text10": "Riesgo Sin Definir",
+    "text11": "(Nota: Sin Información)"
+  },
+  {
+    "id": 3,
+    "title": "About",
+    "text1": "First Name:",
+    "text2": "Danielle",
+    "text3": "Last Name:",
+    "text4": "Munchen Schollengberg",
+    "text5": "Email",
+    "text6": "danielle_munchen@gmail.com",
+    "text7": "Phone Number:",
+    "text8": "+52 5522126164",
+    "text9": "Country",
+    "text10": "México",
+    "text11": "Category:",
+    "text12": "Do Not Contact"
+  },
+  {
+    "id": 4,
+    "title": "Career Details",
+    "text1": "Career Name:",
+    "text2": "Software Engineering",
+    "text3": "Advocacy",
+    "text4": "Medicine",
+    "text5": "Mechanical Engineering",
+    "text6": "Career ID:",
+    "text7": "0398P",
+    "text8": "Type:",
+    "text9": "Graduate",
+    "text10": "Type:",
+    "text11": "Graduate",
+    "text12": "Status",
+    "text13": "Enrollment",
+    "text14": "Student ID:",
+    "text15": "AYS10123839",
+    "text16": "Cohort:",
+    "text17": "A1 2023"
+  }
+]

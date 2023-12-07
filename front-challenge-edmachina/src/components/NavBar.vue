@@ -1,5 +1,5 @@
 <template>
-  <nav class="navbar navbar-expand-lg">
+  <nav class="navbar navbar-expand-lg colorweight">
     <div class="container-fluid">
       <router-link to="/" class="navbar-brand"
         ><svg
@@ -140,9 +140,7 @@
 </template>
   
 <script>
-export default {
-  // Lógica del componente
-};
+export default {};
 </script>
   
 <style scoped>
@@ -170,7 +168,7 @@ nav {
   height: 37.681px;
   flex-shrink: 0;
   fill: url(<path-to-image>), lightgray 0px 0px / 100% 100% no-repeat;
-    border-radius: 50%;
+  border-radius: 50%;
 }
 </style>
   

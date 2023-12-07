@@ -24,7 +24,9 @@ Siga estos pasos para ejecutar el proyecto localmente:
    ```bash
    npm run serve
 
-**Para utilizarlo con Docker ejecute el siguiente comando:**
-    ```bash
+4. **Para utilizarlo con Docker ejecute el siguiente comando:**
+   ```bash
    docker compose up
+
+   
 

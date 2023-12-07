@@ -14,14 +14,17 @@ Siga estos pasos para ejecutar el proyecto localmente:
 
 1. **Clonar el Repositorio:**
    ```bash
-   git clone https://github.com/tu_usuario/tu-proyecto.git
+   git clone https://github.com/JorgeA-Extrados/Front-Challenge-EdMachina.git
 
 2. **Ejecuta los siguientes comando:**
+    ```bash
     npm install
 
 3. **Clonar el Repositorio:**
+   ```bash
    npm run serve
 
 **Para utilizarlo con Docker ejecute el siguiente comando:**
+    ```bash
    docker compose up
 
